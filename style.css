@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f5;
+    color: #2b2b2b;
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #228B22;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: -33px;
+    left: -10px;
+    width: 150px;
+    /* Adjust size */
+    height: auto;
+}
+
+.bg {
+    width: 1000px;
+}
+
+nav {
+    background-color: rgba(24, 247, 72, 0.397);
+    filter: blur();
+    padding: 30px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 50%;
+}
+
+.hero {
+    /* background-image: url('bg.jfif'); */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    background-color: r;
+}
+
+.hero p {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color: white;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.product-card {
+    background-color: rgba(24, 247, 72, 0.397);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product-card h3 {
+    margin: 15px 0;
+    color: white;
+}
+.product-card p {
+    font-size: 16px;
+    color: white;
+}
+.buy-btn {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.buy-btn {
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.about {
+    color: white;
+    margin: 80px;
+    font-size: 25px;
+}
+
+.content {
+    color: white;
+    margin: 30px;
+}
+
+footer {
+    margin-top: 155px;
+}
