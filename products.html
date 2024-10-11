@@ -5,6 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoWorld - Preserve the Ecosystem</title>
+    <style>
+        /* General Product Section Styling */
+#products {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of product cards */
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Space between product cards */
+}
+
+.product-card {
+    background-color: rgba(24, 247, 72, 0.397);
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px; /* Set a fixed width for desktop */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product-card img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.buy-btn {
+    background-color: #32CD32; /* Green color for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #228B22; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-card {
+        width: 90%; /* Full width on mobile */
+    }
+
+    .product-card h3 {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    .product-card p {
+        font-size: 14px; /* Adjust paragraph size */
+    }
+
+    .citation {
+        font-size: 12px; /* Smaller citation text */
+    }
+}
+    </style>
 </head>
 <nav>
     <li>
